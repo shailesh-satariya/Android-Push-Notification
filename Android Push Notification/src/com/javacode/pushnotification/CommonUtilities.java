@@ -10,7 +10,7 @@ import android.content.Intent;
 public final class CommonUtilities {
 
 	// give your server registration url here
-	static final String SERVER_URL = "http://albumartindia.com/pushnotification/register.php";
+	static final String SERVER_URL = "http://10.0.2.2/register.php";
 
 	// Google project id
 	static final String SENDER_ID = "343780976448";

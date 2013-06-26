@@ -42,13 +42,13 @@ public class SingleMessageView extends Activity {
 	private static final String TAG_SUBJECT = "subject";
 	private static final String TAG_MESSAGE = "message";
 
-	// Album id
+	// Message id
 	String message_id = null;
 
 	String from, subject, message;
 
 	// Inbox JSON url
-	private static final String MESSAGE_URL = "http://albumartindia.com/pushnotification/getSingleNotification.php";
+	private static final String MESSAGE_URL = "http://10.0.2.2/getSingleNotification.php";
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {

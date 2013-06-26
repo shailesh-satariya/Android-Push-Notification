@@ -81,10 +81,10 @@ public class MainActivity extends Activity {
 	MyMessageAdapter dataAdapter;
 
 	// Inbox JSON url
-	private static final String INBOX_URL = "http://albumartindia.com/pushnotification/getAllNotifications.php";
+	private static final String INBOX_URL = "http://10.0.2.2/getAllNotifications.php";
 
 	// Delete Notifications url
-	private static final String DELETE_URL = "http://albumartindia.com/pushnotification/deleteNotifications.php";
+	private static final String DELETE_URL = "http://10.0.2.2/deleteNotifications.php";
 
 	// ALL JSON node names
 	private static final String TAG_MESSAGES = "messages";
@@ -602,8 +602,6 @@ public class MainActivity extends Activity {
 						Intent i = new Intent(getApplicationContext(),
 								SingleMessageView.class);
 
-						// to get song information
-						// both album id and song is needed
 						String message_id = ((TextView) view
 								.findViewById(R.id.message_id)).getText()
 								.toString();

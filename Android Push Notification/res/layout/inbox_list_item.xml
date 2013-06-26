@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <!-- Message ID -->
+    <TextView
+        android:id="@+id/message_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+ 
+    <!-- Message From -->
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/checkbox"
+        android:paddingBottom="4dip"
+        android:paddingLeft="8dip"
+        android:paddingTop="8dip"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="8dip"/>
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/from"
+         android:layout_marginLeft="48dip"
+        android:paddingBottom="6dip"
+       
+        android:paddingTop="8dip"
+        android:textSize="15sp" />
+ 
+</RelativeLayout>

@@ -4,7 +4,8 @@ Android-Push-Notification
 This is an android app to demonstrate push notification.
 
 To run this app, you will need a google project id. 
-Put this id in Android Push Notification/src/com/javacode/pushnotification/CommonUtilities.java 
+Put this id in Android Push Notification/src/com/javacode/pushnotification/CommonUtilities.java
+
 static final String SENDER_ID = "google project id";
 
 
